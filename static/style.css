@@ -61,6 +61,11 @@ form div {
     align-items:normal;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 0;
+}
+
+div select {
+    text-align: center;
 }
 
 form div h1 {
@@ -93,6 +98,11 @@ div p {
     background-color:inherit;
 }
 
+div a {
+    color: white; 
+    text-decoration: none;
+}
+
 .homepage {
     position: relative;
     top: 0;
@@ -105,9 +115,40 @@ div p {
 .books h1 {
     margin-bottom: 5px;
     padding: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .author {
     padding-bottom: 10px;
     padding-top: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    color: white;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.buttons label {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.delete-form {
+    padding-left: 10px;
+    padding-right: 10px;
 }
